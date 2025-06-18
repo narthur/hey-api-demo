@@ -5,7 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: ".tool-versions"
-      - run: npx knip
+      - uses: asdf-vm/actions/install@v4
+      - run: pnpm install
+      - run: pnpm run knip
