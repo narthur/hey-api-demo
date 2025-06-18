@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "openapi-ts": "openapi-ts",
+    "knip": "knip"
+  },
+  "dependencies": {
+    "@tanstack/svelte-query": "^5.80.7",
+    "knip": "https://pkg.pr.new/knip@1132"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.73.0"
+  }
+}
