@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@tanstack/svelte-query':
-        specifier: ^5.80.7
-        version: 5.80.7(svelte@5.34.5)
+        specifier: ^5.80.10
+        version: 5.80.10(svelte@5.34.5)
       knip:
-        specifier: https://pkg.pr.new/knip@1132
-        version: https://pkg.pr.new/knip@1132(@types/node@24.0.3)(typescript@5.8.3)
+        specifier: https://pkg.pr.new/knip@9647853
+        version: https://pkg.pr.new/knip@9647853(@types/node@24.0.3)(typescript@5.8.3)
     devDependencies:
       '@hey-api/openapi-ts':
         specifier: ^0.73.0
@@ -151,11 +151,11 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@tanstack/query-core@5.80.7':
-    resolution: {integrity: sha512-s09l5zeUKC8q7DCCCIkVSns8zZrK4ZDT6ryEjxNBFi68G4z2EBobBS7rdOY3r6W1WbUDpc1fe5oY+YO/+2UVUg==}
+  '@tanstack/query-core@5.80.10':
+    resolution: {integrity: sha512-mUNQOtzxkjL6jLbyChZoSBP6A5gQDVRUiPvW+/zw/9ftOAz+H754zCj3D8PwnzPKyHzGkQ9JbH48ukhym9LK1Q==}
 
-  '@tanstack/svelte-query@5.80.7':
-    resolution: {integrity: sha512-QTVW6eBkKc0n4rjXNBhuJkVwY1xu/xVnOnhTtsW9RQOlSZLl14uQwXB23fV2cD6G+Ibo34OxhKAgyfLuEinI9w==}
+  '@tanstack/svelte-query@5.80.10':
+    resolution: {integrity: sha512-o+THeWEKLSHMAIEf3RCCNvG8hHHhKgtTSuZffP3lzj9zmQJE9CVgtFAylAAy6b+eXtgXW+ek+f4uOeo1yBnVxw==}
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0 || ^5.0.0
 
@@ -338,9 +338,9 @@ packages:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
-  knip@https://pkg.pr.new/knip@1132:
-    resolution: {tarball: https://pkg.pr.new/knip@1132}
-    version: 5.61.0
+  knip@https://pkg.pr.new/knip@9647853:
+    resolution: {tarball: https://pkg.pr.new/knip@9647853}
+    version: 5.61.2
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -646,11 +646,11 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@tanstack/query-core@5.80.7': {}
+  '@tanstack/query-core@5.80.10': {}
 
-  '@tanstack/svelte-query@5.80.7(svelte@5.34.5)':
+  '@tanstack/svelte-query@5.80.10(svelte@5.34.5)':
     dependencies:
-      '@tanstack/query-core': 5.80.7
+      '@tanstack/query-core': 5.80.10
       svelte: 5.34.5
 
   '@tybys/wasm-util@0.9.0':
@@ -819,7 +819,7 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  knip@https://pkg.pr.new/knip@1132(@types/node@24.0.3)(typescript@5.8.3):
+  knip@https://pkg.pr.new/knip@9647853(@types/node@24.0.3)(typescript@5.8.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@types/node': 24.0.3

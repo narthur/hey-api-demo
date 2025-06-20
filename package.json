@@ -4,8 +4,8 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@tanstack/svelte-query": "^5.80.7",
-    "knip": "https://pkg.pr.new/knip@1132"
+    "@tanstack/svelte-query": "^5.80.10",
+    "knip": "https://pkg.pr.new/knip@9647853"
   },
   "devDependencies": {
     "@hey-api/openapi-ts": "^0.73.0"
